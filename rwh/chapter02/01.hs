@@ -1,0 +1,5 @@
+-- From reading the type of `last`, which is `last :: [a] -> a`,
+-- we clearly know that it reads a list of objects of some type T,
+-- and returns an object of same type T. Values other than lists
+-- are not accepted, and it just returns one object of the type,
+-- not two, not tuple, neither list.
